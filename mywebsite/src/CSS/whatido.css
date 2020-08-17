@@ -1,0 +1,124 @@
+.whatido .subtitle {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.whatido .table {
+    width: 100%;
+    display: inline-block;
+}
+
+.whatido .row {
+    /* margin: 30px -7.5px; */
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    perspective: 1000px;
+}
+
+.whatido .column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0px 15px;
+    width: 30%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.whatido .card {
+    box-shadow: 0 6px 8px 0 rgb(104, 109, 110);
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    word-wrap:break-word;
+}
+
+.whatido .cardHeader {
+    color:#df5e5e;
+}
+
+
+.whatido .front {
+    display: flex;
+    position: absolute;
+    backface-visibility: hidden;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+.whatido .front > svg {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.whatido .back {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    height: 100%; 
+}
+
+.whatido .col_active {
+    transform: rotateY(180deg);
+}
+
+
+.whatido .row h3, .whatido .row h4, .whatido .row p {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0px;
+    padding: 10px;
+}
+
+
+.whatido .top, .bottom {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatido .top {
+    margin-top: 30px;
+    font-size: initial;
+    color: black;
+    /* color: white; */
+}
+
+.whatido .bottom {
+    font-size: 40px;
+    /* color: #8dbfff; */
+    color:#df5e5e;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .whatido .row {
+        display: inline-block;
+        margin: 15px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .whatido .column {
+        display: block;
+        margin: 15px 0px;
+        width: 100%;
+    }
+}

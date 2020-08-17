@@ -1,0 +1,66 @@
+.contact {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact #icon {
+    color: white;
+}
+
+.contact .contact_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact #info {
+    vertical-align: middle;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.contact #info a:link,.contact #info a:visited{
+    text-decoration: none;
+}
+
+.contact #email, #resume{
+    margin: 0px;
+    /* float: left; */
+    /* clear: both; */
+    margin-bottom: 20px;
+    
+    vertical-align: center;
+    color: white;
+    position: relative;
+    border: 1px solid #f7ba8e;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0px;
+    outline: none;  
+}
+
+.contact #email{
+    margin-top: 10px;
+}
+
+
+.contact #resume{
+    margin-top: 0px;
+}
+
+.contact .color {
+    color: #f7ba8e;
+    display: inline;
+    margin: 0px;
+}
+
+.contact .subtitle {
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: initial;
+}
