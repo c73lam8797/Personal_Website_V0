@@ -1,6 +1,7 @@
 # Personal Website
 
 ## What is this?
+* NOTE: This is an older version of my website, deployed to c73lam8797.github.io. The newest version can be found on https://charmainelam.com/.
 * A website showcasing a little bit of my story
 * Purpose: To have people know me for more than my involvement in school
 * Personal Choices/Goal: To challenge myself to build an interactive UI with limited usage of other libraries
@@ -13,8 +14,6 @@
 
 
 ## Technologies
-* Netlify - Deployed to the Netlify cloud platform at https://charmainelam.com/
-  * May sometimes be down for maintenance
 * React
   * JavaScript (ES6+)
   * Hooks
